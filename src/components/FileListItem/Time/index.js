@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
 
-const Time = props => <td className="right"><p className="schedule">{props.duration}</p></td>
+const Time = ({time}) => <td className="right"><p className="schedule">{time}</p></td>
 
 export default Time;

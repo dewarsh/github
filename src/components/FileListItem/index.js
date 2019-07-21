@@ -5,12 +5,12 @@ import Time from "./Time";
 import './style.css';
 
 
-const FileListItem = () => {
+const FileListItem = ({data}) => {
   return (
     <tr>
-      <FileName name="build"/>
-      <CommitMessage message="Close #1687, Replace es3ify with Babel Es3 transforms (#1688)"/>
-      <Time duration="2 months ago"/>
+      <FileName name={data.name} type={data.type}/>
+      <CommitMessage message={data.message}/>
+      <Time time={data.time}/>
     </tr>
   );
 };

@@ -1,18 +1,16 @@
 import React from "react";
 import FileListItem from "./components/FileListItem";
-import Data from './data.json';
+import data from './data.json';
 import "./App.css";
 
-function App() {
-  console.log(Data)
+const App = () => {
+  console.log(data)
   return (
-    <div className="App">
       <table className="table">
         <tbody>
-          <FileListItem />
+          {data.map((el,index) => <FileListItem key={index} data={el} />)}
         </tbody>
       </table>
-    </div>
   );
 }
 
