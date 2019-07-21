@@ -1,6 +1,7 @@
 .text {
     display: inline-block;
-    color: rgb(150, 150, 150);
+    color: #586069;
+    font-size: 15px;
 }
 
 td.center {

@@ -6,10 +6,12 @@
 
 .file {
     display: inline-block;
-    color:blue;
+    color:#0366d6;
+    font-size: 15px;
 }
 
 td.left {
     text-align: left;
     padding: 5px;
+    width: 200px;
 }
