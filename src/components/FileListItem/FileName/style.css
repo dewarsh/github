@@ -3,3 +3,13 @@
     width: 15px;
     margin-right: 4px;
 }
+
+.file {
+    display: inline-block;
+    color:blue;
+}
+
+td.left {
+    text-align: left;
+    padding: 5px;
+}

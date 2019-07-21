@@ -1,0 +1,9 @@
+.schedule {
+    display: inline-block;
+    color: rgb(150, 150, 150);
+}
+
+td.right {
+    text-align: right;
+    padding: 5px;
+}

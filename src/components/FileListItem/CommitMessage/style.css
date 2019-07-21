@@ -1,0 +1,10 @@
+.text {
+    display: inline-block;
+    color: rgb(150, 150, 150);
+}
+
+td.center {
+    text-align: left;
+    padding: 5px;
+    width: 500px;
+}

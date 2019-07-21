@@ -5,10 +5,10 @@ import './style.css';
 const FileName = props => {
     
     return (
-        <div>
+        <td className="left">
             <img src={FolderIcon} alt="thumbnail" className="thumbnail"/>
-            <p style={{"display":"inline-block"}}>{props.name}</p>
-        </div>    
+            <p className="file">{props.name}</p>
+        </td>    
     )
 }
 
